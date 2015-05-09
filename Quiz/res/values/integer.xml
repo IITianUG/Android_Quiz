@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="answermed">
+        <item>3</item>
+        <item>1</item>
+        <item>4</item>
+        <item>4</item>
+        <item>4</item>
+        <item>1</item>
+        <item>1</item>
+        <item>4</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+        <item>4</item>
+        <item>3</item>
+        <item>1</item>
+        <item>4</item>
+    </integer-array>
+    <integer-array name="answereasy">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>4</item>
+        <item>4</item>
+        <item>1</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>3</item>
+    </integer-array>
+    <integer-array name="answerhard">
+        <item>4</item>
+        <item>4</item>
+        <item>1</item>
+        <item>1</item>
+        <item>4</item>
+        <item>2</item>
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>3</item>
+        <item>2</item>
+        <item>2</item>
+        <item>1</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    
+</resources>

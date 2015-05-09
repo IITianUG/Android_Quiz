@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hackathon.HAC4819"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.hackathon.HAC4819.LoginActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.hackathon.HAC4819.RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+        <activity
+            android:name="com.hackathon.HAC4819.SplashActivity"
+            android:label="@string/title_activity_splash" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hackathon.HAC4819.MainActivity"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name="com.hackathon.HAC4819.HomeActivity"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.hackathon.HAC4819.QuestionsActivity"
+            android:label="@string/title_activity_questions" >
+        </activity>
+        <activity
+            android:name="com.hackathon.HAC4819.ResultActivity"
+            android:label="@string/title_activity_result" >
+        </activity>
+        <activity
+            android:name="com.hackathon.HAC4819.HomeFragment"
+            android:label="@string/title_activity_home_fragment" >
+        </activity>
+        <activity
+            android:name="com.hackathon.HAC4819.QuestionFragment"
+            android:label="@string/title_activity_question_fragment" >
+        </activity>
+        <activity
+            android:name="com.hackathon.HAC4819.Difficulty"
+            android:label="@string/title_activity_difficulty" >
+            
+        </activity>
+    </application>
+
+</manifest>

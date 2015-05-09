@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bb"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15.0sp"
+        android:text="Choose your difficulty level"
+        android:textColor="#ffffffff"
+        android:textSize="20.0sp" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60.0sp"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/beasy"
+            android:layout_width="270.0dip"
+            android:layout_height="60.0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20.0sp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#ffa8a8a8"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="5.0"
+            android:text="Easy"
+            android:textColor="#ffff3377"
+            android:textSize="30.0sp" />
+
+        <Button
+            android:id="@+id/bmedium"
+            android:layout_width="270.0dip"
+            android:layout_height="60.0dip"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20.0sp"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#ffa8a8a8"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="5.0"
+            android:text="Medium"
+            android:textColor="#ffff3377"
+            android:textSize="30.0sp" />
+
+        <Button
+            android:id="@+id/bhard"
+            android:layout_width="270.0dip"
+            android:layout_height="60.0dip"
+            android:layout_gravity="center"
+            android:background="@drawable/buttonshape"
+            android:shadowColor="#ffa8a8a8"
+            android:shadowDx="0.0"
+            android:shadowDy="0.0"
+            android:shadowRadius="5.0"
+            android:text="Hard"
+            android:textColor="#ffff3377"
+            android:textSize="30.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

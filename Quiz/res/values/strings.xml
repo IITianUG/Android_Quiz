@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuizME</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_splash">QuizME</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_questions">QuestionsActivity</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="drawer_open">Menu Opened</string>
+    <string name="drawer_close">Closed</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Hall Of Fame</item>
+        <item>Logout</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_action_person</item>
+        <item>@drawable/ic_action_place</item>
+        <item>@drawable/ic_action_paste</item>
+        <item>@drawable/ic_action_settings</item>
+    </array>
+
+    <!-- questions -->
+    <array name="questionsmed">
+        <item>(Q1.) SCD, TEF, UGH, ____, WKL</item>
+        <item>(Q1.) FAG, GAF, HAI, IAH, ____</item>
+        <item>(Q1.) ZA5, Y4B, XC6, W3D, _____</item>
+        <item>(Q1.) DEF, DEF2, DE2F2, _____, D2E2F3</item>
+        <item>(Q2.) For which of the following disciplines is Nobel Prize awarded?</item>
+        <item>(Q2.) Friction can be reduced by changing from</item>
+        <item>(Q2.) DRDL stands for</item>
+        <item>(Q2.) For galvanizing iron which of the following metals is used?</item>
+        <item>(Q3.) The leading state in producing paper is</item>
+        <item>(Q3.) The largest country of the world by geographical area is</item>
+        <item>(Q3.) The highest average salinity amongst the following seas is reported from</item>
+        <item>(Q3.) The infrared radiation by sun are strongly absorbed by</item>
+        <item>(Q4.) How long is an IPv6 address?</item>
+        <item>(Q4.) Which protocol does Ping use?</item>
+        <item>(Q4.) Who invented the BALLPOINT PEN?</item>
+        <item>(Q4.) Which scientist discovered the radioactive element radium?</item>
+    </array>
+
+    <!-- options -->
+    <array name="optionsmed">
+        <item>(A)CMN</item>
+        <item>(B)UJI</item>
+        <item>(C)VIJ</item>
+        <item>(D)IJT</item>
+        <item>(A)JAK</item>
+        <item>(B)HAL</item>
+        <item>(C)HAK</item>
+        <item>(D)JAI</item>
+        <item>(A)E7V</item>
+        <item>(B)V2E</item>
+        <item>(C)VE5</item>
+        <item>(D)VE7</item>
+        <item>(A)DEF3</item>
+        <item>(B)D3EF3</item>
+        <item>(C)D2E3F</item>
+        <item>(D)D2E2F2</item>
+        <item>(A)Physics and Chemistry</item>
+        <item>(B)Physiology or Medicine</item>
+        <item>(C)Literature, Peace and Economics</item>
+        <item>(D)All of the above</item>
+        <item>(A)sliding to rolling</item>
+        <item>(B)rolling to sliding</item>
+        <item>(C)potential energy to kinetic energy</item>
+        <item>(D)dynamic to static</item>
+        <item>(A)Defence Research and Development Laboratary</item>
+        <item>(B)Department of Research and Development Laboratory</item>
+        <item>(C)Differential Research and Documentation Laboratary</item>
+        <item>(D)None of the above</item>
+        <item>(A)Aluminium</item>
+        <item>(B)Copper</item>
+        <item>(C)Lead</item>
+        <item>(D)Zinc</item>
+        <item>(A)Bihar</item>
+        <item>(B)West Bengal</item>
+        <item>(C)Kerala</item>
+        <item>(D)Orissa</item>
+        <item>(A)Russia</item>
+        <item>(B)Vatican City</item>
+        <item>(C)Australia</item>
+        <item>(D)USA</item>
+        <item>(A)Dead Sea</item>
+        <item>(B)Red Sea</item>
+        <item>(C)Black Sea</item>
+        <item>(D)Mediterranean Sea</item>
+        <item>(A)carbon dioxide</item>
+        <item>(B)water vapours</item>
+        <item>(C)carbon dioxide and water vapours</item>
+        <item>(D)ozone</item>
+        <item>(A)32 bits</item>
+        <item>(B)128 bytes</item>
+        <item>(C)64 bits</item>
+        <item>(D)128 bits</item>
+        <item>(A)TCP</item>
+        <item>(B)ARP</item>
+        <item>(C)ICMP</item>
+        <item>(D)BootP</item>
+        <item>(A)Biro Brothers</item>
+        <item>(B)Waterman Brothers</item>
+        <item>(C)Bicc Brothers</item>
+        <item>(D)Write Brothers</item>
+        <item>(A)Isaac Newton</item>
+        <item>(B)Albert Einstein</item>
+        <item>(C)Benjamin Franklin</item>
+        <item>(D)Marie Curie</item>
+    </array>
+    
+    
+    <array name="questionseasy">
+        <item>(Q1.) Which of the following is used in pencils?</item>
+        <item>(Q1.) Chemical formula for water is</item>
+        <item>(Q1.) The hardest substance available on earth is</item>
+        <item>(Q1.) Which of the following is a non metal that remains liquid at room temperature?</item>
+        <item>(Q2.) Who is the father of Geometry?</item>
+        <item>(Q2.) Who was known as Iron man of India?</item>
+        <item>(Q2.) Who is the Flying Sikh of India?</item>
+        <item>(Q2.) Who is known as the Lady with the Lamp?</item>
+        <item>(Q3.) Michael Jackson is a distinguished person in the field of?</item>
+        <item>(Q3.) Bijapur is known for its</item>
+        <item>(Q3.) The Indian Institute of Science is located at</item>
+        <item>(Q3.) Which city is known as Electronic City of India?</item>
+        <item>(Q4.) Dandia is a popular dance of</item>
+        <item>(Q4.) Light from the Sun reaches us in nearly</item>
+        <item>(Q4.) The nucleus of an atom consists of</item>
+        <item>(Q4.) Ozone hole refers to</item>
+    </array>
+
+    <!-- options -->
+    <array name="optionseasy">
+        <item>(A)Graphite</item>
+        <item>(B)Silicon</item>
+        <item>(C)Charcoal</item>
+        <item>(D)Phosphorous</item>
+        <item>(A)NaAlO2</item>
+        <item>(B)H2O</item>
+        <item>(C)Al2O3</item>
+        <item>(D)CaSiO3</item>
+        <item>(A)Gold</item>
+        <item>(B)Iron</item>
+        <item>(C)Diamond</item>
+        <item>(D)Platinum</item>
+        <item>(A)Phosphorous</item>
+        <item>(B)Bromine</item>
+        <item>(C)Chlorine</item>
+        <item>(D)Helium</item>
+        <item>(A)Aristotle</item>
+        <item>(B)Euclid</item>
+        <item>(C)Pythagoras</item>
+        <item>(D)Kepler</item>
+        <item>(A)Govind Ballabh Pant</item>
+        <item>(B)Jawaharlal Nehru</item>
+        <item>(C)Subhash Chandra Bose</item>
+        <item>(D)Sardar Vallabhbhai Patel</item>
+        <item>(A)Mohinder Singh</item>
+        <item>(B)Joginder Singh</item>
+        <item>(C)Ajit Pal Singh</item>
+        <item>(D)Milkha Singh</item>
+        <item>(A)Florence Nightingale</item>
+        <item>(B)Sarojini Naidu</item>
+        <item>(C)Indira Gandhi</item>
+        <item>(D)Joan of Arc</item>
+        <item>(A)Pop Music</item>
+        <item>(B)Jounalism</item>
+        <item>(C)Sports</item>
+        <item>(D)Acting</item>
+        <item>(A)severe drought condition</item>
+        <item>(B)Gol Gumbaz</item>
+        <item>(C)heavy rainfall</item>
+        <item>(D)statue of Gomateswara</item>
+        <item>(A)Kerala</item>
+        <item>(B)Madras</item>
+        <item>(C)Bangalore</item>
+        <item>(D)New Delhi</item>
+        <item>(A)Mumbai</item>
+        <item>(B)Hyderabad</item>
+        <item>(C)Guragon</item>
+        <item>(D)Bangalore</item>
+        <item>(A)Punjab</item>
+        <item>(B)Gujarat</item>
+        <item>(C)Tamil Nadu</item>
+        <item>(D)Maharashtra</item>
+        <item>(A)2 minutes</item>
+        <item>(B)4 minutes</item>
+        <item>(C)8 minutes</item>
+        <item>(D)16 minutes</item>
+        <item>(A)electrons and neutrons</item>
+        <item>(B)electrons and protons</item>
+        <item>(C)protons and neutrons</item>
+        <item>(D)All of the above</item>
+        <item>(A)hole in ozone layer</item>
+        <item>(B)decrease in the ozone layer in troposphere</item>
+        <item>(C)decrease in thickness of ozone layer in stratosphere</item>
+        <item>(D)increase in the thickness of ozone layer in troposphere</item>
+    </array>
+    
+    <array name="questionshard">
+        <item>(Q1.) What when applied to snow or ice lowers the melting point of the mixture?</item>
+        <item>(Q1.) The name of Pierre Cardin is associated with which of the following fields?</item>
+        <item>(Q1.) The first woman in space was</item>
+        <item>(Q1.) Sanjay Dutt, a noted film actor was held under</item>
+        <item>(Q2.) Who is the creator of the Rock Garden in Chandigarh?</item>
+        <item>(Q2.) Which is the highest gallantry award in India?</item>
+        <item>(Q2.) Who is the first Asian Winner of Nobel Prize?</item>
+        <item>(Q2.) Who is largely responsible for breaking the German Enigma codes, created a test that provided a foundation for artificial intelligence?</item>
+        <item>(Q3.) The ratio of width of our National flag to its length is</item>
+        <item>(Q3.) The members of the Rajya Sabha are elected by</item>
+        <item>(Q3.) The words Satyameva Jayate inscribed below the base plate of the emblem of India are taken from</item>
+        <item>(Q3.) The absorption of ink by blotting paper involves</item>
+        <item>(Q4.) The Rath Yatra at Puri is celebrated in honour of which Hindu deity</item>
+        <item>(Q4.) Mirage is due to</item>
+        <item>(Q4.) The minimum age to qualify for election to the Lok Sabha is</item>
+        <item>(Q4.) Which of the following dances is a solo dance?</item>
+    </array>
+
+    <!-- options -->
+    <array name="optionshard">
+        <item>(A)Water</item>
+        <item>(B)Milk</item>
+        <item>(C)Curd</item>
+        <item>(D)Salt</item>
+        <item>(A)Painting</item>
+        <item>(B)Films</item>
+        <item>(C)Pop Music</item>
+        <item>(D)Fashion Designing</item>
+        <item>(A)Valentina Tereshkova</item>
+        <item>(B)Sally Ride</item>
+        <item>(C)Naidia Comenci</item>
+        <item>(D)Tamara Press</item>
+        <item>(A)TADA</item>
+        <item>(B)Narcotics Act</item>
+        <item>(C)Act 302</item>
+        <item>(D)Anti - Defection Act</item>
+        <item>(A)Pupal Jayakar</item>
+        <item>(B)Le Corbousier</item>
+        <item>(C)Glen</item>
+        <item>(D)Nek Chand</item>
+        <item>(A)Param Vishishtat Seva Medal</item>
+        <item>(B)Param Vir Chakra</item>
+        <item>(C)Kirti Chakra</item>
+        <item>(D)Vir Chakra</item>
+        <item>(A)C. V. Raman</item>
+        <item>(B)Rajiv Gandhi</item>
+        <item>(C)Rabindranath Tagore</item>
+        <item>(D)Mother Teresa</item>
+        <item>(A)Alan Turing</item>
+        <item>(B)Jeff Bezos</item>
+        <item>(C)George Boole</item>
+        <item>(D)Charles Babbage</item>
+        <item>(A)3:5</item>
+        <item>(B)2:3</item>
+        <item>(C)2:4</item>
+        <item>(D)3:4</item>
+        <item>(A)the people</item>
+        <item>(B)Lok Sabha</item>
+        <item>(C)elected members of the legislative assembly</item>
+        <item>(D)elected members of the legislative council</item>
+        <item>(A)Rigveda</item>
+        <item>(B)Satpath Brahmana</item>
+        <item>(C)Mundak Upanishad</item>
+        <item>(D)Ramayana</item>
+        <item>(A)viscosity of ink</item>
+        <item>(B)capillary action phenomenon</item>
+        <item>(C)diffusion of ink through the blotting</item>
+        <item>(D)siphon action</item>
+        <item>(A)Ram</item>
+        <item>(B)Jaganath</item>
+        <item>(C)Shiva</item>
+        <item>(D)Vishnu</item>
+        <item>(A)unequal heating of different parts of the atmosphere</item>
+        <item>(B)magnetic disturbances in the atmosphere</item>
+        <item>(C)depletion of ozone layer in the atmosphere</item>
+        <item>(D)equal heating of different parts of the atmosphere</item>
+        <item>(A)25 years</item>
+        <item>(B)21 years</item>
+        <item>(C)18 years</item>
+        <item>(D)35 years</item>
+        <item>(A)Ottan Thullal</item>
+        <item>(B)Kuchipudi</item>
+        <item>(C)Yakshagana</item>
+        <item>(D)Odissi</item>
+    </array>
+    
+    
+
+    <string name="title_activity_home_fragment">HomeFragment</string>
+    <string name="title_activity_question_fragment">QuestionFragment</string>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+    <string name="title_activity_difficulty">Difficulty</string>
+
+</resources>
